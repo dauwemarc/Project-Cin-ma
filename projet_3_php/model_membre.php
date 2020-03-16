@@ -1,4 +1,5 @@
 <?php
+require ManagerMembre.php;
 
 Class MembreCinema{
 
