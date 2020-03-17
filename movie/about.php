@@ -64,7 +64,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <p style="font-size: 3vw; font-weight: bold;text-align: center;">Movie Ticket is build For CSE391 project.
+            <p style="font-size: 3vw; font-weight: bold;text-align: center;">géolocalisation.
             </p><div>
 									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41963.406694986385!2d2.3086402410371156!3d48.901808094143405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66c0dbcc3fc77%3A0x15057e42b92ba96!2zQ2luw6ltYSBkZSBsJ8OJdG9pbGU!5e0!3m2!1sfr!2sfr!4v1584366671506!5m2!1sfr!2sfr"
 									 width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
