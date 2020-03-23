@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mar. 17 mars 2020 à 09:24
+-- Généré le :  lun. 23 mars 2020 à 09:03
 -- Version du serveur :  5.7.26
 -- Version de PHP :  7.2.18
 
@@ -45,12 +45,12 @@ CREATE TABLE IF NOT EXISTS `movielist` (
 --
 
 INSERT INTO `movielist` (`movieId`, `Name`, `Genre`, `Director`, `Description`, `image`, `imdb`) VALUES
-(1, 'Batman Begins', 'Action', 'Christopher Nolan', 'Comment un homme seul peut-il changer le monde ? Telle est la question qui hante Bruce Wayne depuis cette nuit tragique où ses parents furent abattus sous ses yeux, dans une ruelle de Gotham City', 'batman.jpg', '9.5'),
-(2, 'Spider-Man: Homecoming (2017)', 'Adventure', 'Jon Watts', 'Après ses spectaculaires débuts avec les Avengers, le jeune Peter Parker découvre peu à peu sa nouvelle identité, celle de Spider-Man, le superhéros lanceur de toile.', 'spiderman.jpg', '8.5'),
-(3, 'Fight Club', 'Action', 'David Fincher', 'Jack est un jeune expert en assurance insomniaque, désillusionné par sa vie personnelle et professionnelle.', 'fightClub.jpg', '8.8'),
-(4, 'Gladiator', 'Action', 'Ridley Scott', 'Le général romain Maximus est le plus fidèle soutien de l\'empereur Marc Aurèle, qu\'il a conduit de victoire en victoire.', 'gladiator.jpg', '8.5'),
-(5, 'Star Wars', 'Adventure', 'George Lucas', 'Star Wars est un univers de fantasy et de science-fiction créé par George Lucas. D\'abord conçue comme une trilogie cinématographique sortie entre 1977 et 1983', 'starwars.png', '9'),
-(6, 'Despicable Me 3', 'Comedy', 'Pierre Coffin, Kyle Balda', 'Gru voyage à Freedonia pour rencontrer son frère jumeau pour la première fois. Les frères décident de former une alliance et de faire tomber Balthazar Bratt', 'despicableme.jpg', '6.4');
+(1, 'Batman Begins', 'Action', 'Christopher Nolan', 'Comment un homme seul peut-il changer le monde ? Telle est la question qui hante Bruce Wayne depuis cette nuit tragique ou ses parents furent abattus sous ses yeux, dans une ruelle de Gotham City', 'batman.jpg', '9.5'),
+(2, 'Spider-Man: Homecoming (2017)', 'Aventure', 'Jon Watts', 'Apres ses spectaculaires debuts avec les Avengers, le jeune Peter Parker decouvre peu a peu sa nouvelle identite, celle de Spider-Man, le superheros lanceur de toile.', 'spiderman.jpg', '8.5'),
+(3, 'Fight Club', 'Action', 'David Fincher', 'Jack est un jeune expert en assurance insomniaque, désillusionne par sa vie personnelle et professionnelle.', 'fightClub.jpg', '8.8'),
+(4, 'Gladiator', 'Action', 'Ridley Scott', 'Le general romain Maximus est le plus fidele soutien de l\'empereur Marc Aurele, qu\'il a conduit de victoire en victoire.', 'gladiator.jpg', '8.5'),
+(5, 'Star Wars', 'Aventure', 'George Lucas', 'Star Wars est un univers de fantasy et de science-fiction cree par George Lucas. D\'abord conçue comme une trilogie cinematographique sortie entre 1977 et 1983', 'starwars.png', '9'),
+(6, 'Despicable Me 3', 'Comedie', 'Pierre Coffin, Kyle Balda', 'Gru voyage a Freedonia pour rencontrer son frere jumeau pour la première fois. Les freres décident de former une alliance et de faire tomber Balthazar Bratt', 'despicableme.jpg', '6.4');
 
 -- --------------------------------------------------------
 
@@ -143,7 +143,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `password` varchar(255) NOT NULL,
   `status` int(3) DEFAULT NULL,
   PRIMARY KEY (`userId`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `user`
