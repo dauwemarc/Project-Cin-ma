@@ -51,6 +51,9 @@ if (!(($_SESSION['user'])==1)) {
 				<div  class="col-md-4">
 					<a style="width: 100%; text-align: center; margin-top: .5vw;" href="addTimeSlot.php" class="myButton"> Ajouter la durée </a>
 				</div>
+				<div  class="col-md-4">
+					<a style="width: 100%; text-align: center; margin-top: .5vw;" href="addFood.php" class="myButton"> Ajouter de la nourriture </a>
+				</div>
 			</div>
 
 		</div>
